@@ -10,7 +10,7 @@ cask "kaflow-search" do
   desc "Desktop search engine for locally indexed Kafka messages"
   homepage "https://github.com/whsoul/kaflow-search"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Kaflow Search.app"
 
