@@ -2,8 +2,8 @@ cask "kaflow-search-demo" do
   arch arm: "arm64", intel: "intel"
 
   version "0.1.3"
-  sha256 arm:   "1e6309c8ba4528fde48d5b478f953664ccd784efa0fc5b95568a8733f385e52a",
-         intel: "c72b0900410d3b751ff4ca0693e5712f5339bd4f113ad86fc0498ef4e0ae5085"
+  sha256 arm:   "f2513759655840305f4f96934d7491e5b3a73704322a10f2caf7488a2491c6df",
+         intel: "fbcc8dbb3570caec3bdfe3d54a4a3783617aab2f8a7ea4106fa0ed1bcbc34307"
 
   url "https://github.com/whsoul/kaflow-search/releases/download/demo-v#{version}/Kaflow-Search-Demo_#{version}_macOS_#{arch}.dmg"
   name "Kaflow Search Demo"
